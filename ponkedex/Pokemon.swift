@@ -35,57 +35,57 @@ class Pokemon {
     }
     var description: String{
         if _description == nil{
-            _description == ""
+            _description = ""
         }
         return _description
     }
     var type: String{
         if _type == nil{
-            _type == nil
+            _type = nil
         }
         return _type
     }
     var defense: String{
             if _defense == nil {
-                _defense == ""
+                _defense = ""
             }
             return _defense
         
     }
     var height: String{
         if _height == nil{
-            _height == ""
+            _height = ""
         }
         return _height
     }
     var weight: String{
         if _weight == nil{
-            _weight == ""
+            _weight = ""
         }
         return _weight
     }
     var attack: String{
         if _attack == nil{
-            _attack == ""
+            _attack = ""
         }
         return _attack
     }
     var nextEvolutionTxt: String{
         if _nextEvolutionTxt == nil{
-            _nextEvolutionTxt == ""
+            _nextEvolutionTxt = ""
         }
         return _nextEvolutionTxt
     }
     var nextEvolutionId: String{
         if _nextEvolutionId == nil{
-            _nextEvolutionId == ""
+            _nextEvolutionId = ""
         }
         return _nextEvolutionId
     }
     var nextEvolutionLevel: String{
         get{
             if _nextEvolutionLevel == nil{
-                _nextEvolutionLevel == ""
+                _nextEvolutionLevel = ""
             }
             return _nextEvolutionLevel
         }
