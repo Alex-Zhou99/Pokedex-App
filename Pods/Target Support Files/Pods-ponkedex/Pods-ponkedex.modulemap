@@ -1,0 +1,6 @@
+framework module Pods_ponkedex {
+  umbrella header "Pods-ponkedex-umbrella.h"
+
+  export *
+  module * { export * }
+}

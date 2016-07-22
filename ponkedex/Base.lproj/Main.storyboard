@@ -6,6 +6,23 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Italic</string>
+        </mutableArray>
         <mutableArray key="Pokemon.ttf">
             <string>PokemonSolidNormal</string>
         </mutableArray>
@@ -182,22 +199,25 @@
                                             </mask>
                                         </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDf-QE-zhG">
-                                        <rect key="frame" x="20" y="29" width="43" height="34"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQZ-G2-WhQ">
+                                        <rect key="frame" x="8" y="36" width="58" height="42"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="L3S-wb-e0F"/>
-                                            <constraint firstAttribute="width" constant="43" id="jKF-f2-Iof"/>
+                                            <constraint firstAttribute="height" constant="42" id="ANI-q1-Jfi"/>
+                                            <constraint firstAttribute="width" constant="58" id="Xm5-9e-r22"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="Drg-KY-0Az" eventType="touchUpInside" id="ZeY-aM-4rb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="ZM1-Xw-IyN" firstAttribute="centerX" secondItem="y8F-MW-N8T" secondAttribute="centerX" id="TBV-mc-hjk"/>
+                                    <constraint firstItem="NQZ-G2-WhQ" firstAttribute="leading" secondItem="y8F-MW-N8T" secondAttribute="leading" constant="8" id="Xmf-Sx-23e"/>
                                     <constraint firstItem="ZM1-Xw-IyN" firstAttribute="centerY" secondItem="y8F-MW-N8T" secondAttribute="centerY" id="Y3r-lk-f3s"/>
-                                    <constraint firstItem="TDf-QE-zhG" firstAttribute="leading" secondItem="y8F-MW-N8T" secondAttribute="leading" constant="20" id="ipI-Ce-gTL"/>
+                                    <constraint firstAttribute="bottom" secondItem="NQZ-G2-WhQ" secondAttribute="bottom" constant="8" id="gRh-jn-fuS"/>
                                     <constraint firstAttribute="height" constant="86" id="lyo-Sy-c2G"/>
-                                    <constraint firstAttribute="bottom" secondItem="TDf-QE-zhG" secondAttribute="bottom" constant="23" id="wd4-5k-gAA"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="1CA-gU-YYB">
@@ -233,7 +253,7 @@ Sunday Noon-Midnight
 
 </string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -358,14 +378,14 @@ Sunday Noon-Midnight
                             <stackView opaque="NO" contentMode="scaleAspectFit" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wDp-ir-6Yx">
                                 <rect key="frame" x="20" y="472" width="560" height="100"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="101" translatesAutoresizingMaskIntoConstraints="NO" id="d7a-4d-6ER">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="101" translatesAutoresizingMaskIntoConstraints="NO" id="d7a-4d-6ER">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="deB-pA-iRf"/>
                                             <constraint firstAttribute="height" constant="100" id="fIv-0G-Me2"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="102" translatesAutoresizingMaskIntoConstraints="NO" id="O0j-qB-84w">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="102" translatesAutoresizingMaskIntoConstraints="NO" id="O0j-qB-84w">
                                         <rect key="frame" x="280" y="0.0" width="280" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="IoN-an-QvV"/>
@@ -392,12 +412,21 @@ Sunday Noon-Midnight
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="currentEvoImg" destination="d7a-4d-6ER" id="Fmf-Yv-UIL"/>
+                        <outlet property="defenseLbl" destination="Ovr-3F-1l0" id="uRz-LH-bBA"/>
+                        <outlet property="descriptionLbl" destination="ssD-nb-fHt" id="Hde-jz-zkz"/>
+                        <outlet property="evoLbl" destination="iNa-5e-GrC" id="rKo-jl-059"/>
+                        <outlet property="heightLbl" destination="r9x-QP-LnO" id="KFV-KH-CWF"/>
+                        <outlet property="mainImg" destination="Zqe-A6-hpa" id="pwY-pu-mBW"/>
                         <outlet property="nameLable" destination="ZM1-Xw-IyN" id="LrK-TA-edB"/>
+                        <outlet property="nextEvoImg" destination="O0j-qB-84w" id="9vL-Mm-KFD"/>
+                        <outlet property="pokedexLbl" destination="xkg-rS-TsR" id="NYJ-UQ-G7x"/>
+                        <outlet property="typeLbl" destination="Gmo-ny-8Ue" id="ikN-RE-DsJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="taR-Jv-z3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="636" y="194"/>
+            <point key="canvasLocation" x="614" y="139"/>
         </scene>
     </scenes>
     <resources>
