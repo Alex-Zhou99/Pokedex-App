@@ -412,9 +412,10 @@ Sunday Noon-Midnight
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="baseAttackLbl" destination="jmU-zw-adA" id="3YC-gw-elE"/>
                         <outlet property="currentEvoImg" destination="d7a-4d-6ER" id="Fmf-Yv-UIL"/>
                         <outlet property="defenseLbl" destination="Ovr-3F-1l0" id="uRz-LH-bBA"/>
-                        <outlet property="descriptionLbl" destination="ssD-nb-fHt" id="Hde-jz-zkz"/>
+                        <outlet property="descriptionLbl" destination="uH3-uC-6i2" id="T5j-Qa-IhV"/>
                         <outlet property="evoLbl" destination="iNa-5e-GrC" id="rKo-jl-059"/>
                         <outlet property="heightLbl" destination="r9x-QP-LnO" id="KFV-KH-CWF"/>
                         <outlet property="mainImg" destination="Zqe-A6-hpa" id="pwY-pu-mBW"/>
@@ -422,6 +423,7 @@ Sunday Noon-Midnight
                         <outlet property="nextEvoImg" destination="O0j-qB-84w" id="9vL-Mm-KFD"/>
                         <outlet property="pokedexLbl" destination="xkg-rS-TsR" id="NYJ-UQ-G7x"/>
                         <outlet property="typeLbl" destination="Gmo-ny-8Ue" id="ikN-RE-DsJ"/>
+                        <outlet property="weightLbl" destination="oFb-Cu-TIV" id="8VT-5H-ZtU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="taR-Jv-z3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
