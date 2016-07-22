@@ -41,9 +41,7 @@ class PokemonDetailVC: UIViewController {
         let img = UIImage(named: "\(pokemon.pokedexId)")
         mainImg.image = img
         currentEvoImg.image = img
-//        heightLbl.text = pokemon.height
         pokemon.downloadPokemonDetails { () -> () in
-            // this will be called after download is done
             self.updateUI()
         }
     }
@@ -56,6 +54,7 @@ class PokemonDetailVC: UIViewController {
         pokedexLbl.text = "\(pokemon.pokedexId)"
         weightLbl.text = pokemon.weight
         baseAttackLbl.text = pokemon.attack
+        defenseLbl.text = pokemon.defense
         
         if pokemon.nextEvolutionId == ""{
             evoLbl.text = "No Evolutions"
@@ -64,8 +63,8 @@ class PokemonDetailVC: UIViewController {
             nextEvoImg.hidden = false
             nextEvoImg.image = UIImage(named: pokemon.nextEvolutionId)
             var str = "Next Evolution: \(pokemon.nextEvolutionTxt)"
-            if pokemon.nextEvolutionLevel != ""{
-                str += "- LVL \(pokemon.nextEvolutionLevel)"
+            if pokemon.nextEvolutionLvl != ""{
+                str += "- LVL \(pokemon.nextEvolutionLvl)"
             }
         }
         
