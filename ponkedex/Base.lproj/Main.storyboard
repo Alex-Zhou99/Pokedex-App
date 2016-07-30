@@ -395,6 +395,7 @@ Sunday Noon-Midnight
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="1CA-gU-YYB" secondAttribute="trailing" id="6fu-dF-I9e"/>
                             <constraint firstItem="wDp-ir-6Yx" firstAttribute="top" secondItem="CxF-GN-ynf" secondAttribute="bottom" constant="8" id="9B8-j4-M4Z"/>

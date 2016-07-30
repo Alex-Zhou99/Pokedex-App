@@ -49,7 +49,7 @@ class PokemonDetailVC: UIViewController {
     func updateUI() {
         descriptionLbl.text = pokemon.description
         typeLbl.text = pokemon.type
-        descriptionLbl.text = pokemon.defense
+        defenseLbl.text = pokemon.defense
         heightLbl.text = pokemon.height
         pokedexLbl.text = "\(pokemon.pokedexId)"
         weightLbl.text = pokemon.weight
