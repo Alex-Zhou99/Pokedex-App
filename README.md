@@ -22,5 +22,5 @@ Builded Pokemon Application to show and search 718 pokedexs' name, attack, descr
 
 ##Discusssing
 
-* submit issue(https://github.com/shi-edward/pokedex/issues)
+* [submit issue](https://github.com/shi-edward/pokedex/issues)
 * email: edwardshi95@gmail.com
